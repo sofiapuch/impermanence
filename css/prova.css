@@ -1,0 +1,13 @@
+img#img1{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+}
+
+img#img2{
+	position: absolute;
+	left: 200px;
+	top: 150px;
+	z-index: 2;
+}
