@@ -70,11 +70,11 @@ article{
 	box-shadow:5px 5px 10px 5px #B1B1B1;
 }
 
-#tiergartenHome{
+#background{
 	z-index: 1;
 	position:absolute;
 }
-#tiergartenBackground{
+#galleryBackground{
 	z-index: 1;
 	position:absolute;
 	opacity:0.1;
