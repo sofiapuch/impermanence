@@ -1,6 +1,15 @@
 body{
 	background-color:#F6F4F0;
+	/*text-align: left;*/
 	
+}
+
+a{
+	color: #27D;
+	text-decoration: none;
+}
+a:focus, a:hover, a:active {
+	text-decoration: underline;
 }
 
 @font-face{
@@ -64,9 +73,9 @@ article{
 	background-color:#FFFFFF;
 	position:relative;
 	width:90%;
-	height:550px;
+	height:580px;
 	margin:30px auto 0px auto;
-	/*overflow:hidden;*/
+	overflow:hidden;
 	box-shadow:5px 5px 10px 5px #B1B1B1;
 }
 
@@ -75,7 +84,6 @@ article{
 	position:absolute;
 }
 #galleryBackground{
-	z-index: 1;
 	position:absolute;
 	opacity:0.1;
 }
@@ -99,6 +107,13 @@ article{
 	margin:50px 80px 10px 50px;
 	padding:30px 50px 60px 50px;
 	border:dotted 1px;
+}
+
+#thumbs.navigation{
+	width:350px;
+	height: 550px;
+	float:left;
+	margin:auto 30px auto 30px;
 }
 
 footer{
