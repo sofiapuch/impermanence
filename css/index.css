@@ -52,6 +52,11 @@ h3{
 	text-shadow:4px 4px 2px #7791DA;
 }
 
+.highlighted{
+	color: #F6F4F0;
+	text-shadow:4px 4px 2px #7791DA;
+}
+
 #home{
 	margin-left: 75px;
 }

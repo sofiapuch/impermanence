@@ -1,7 +1,13 @@
 $(document).ready(function(){
 	
+	//-------------------my functions-----------------------
+	
+	function highlightSelected(e) {
+		$('.highlighted').removeClass("highlighted");
+		e.addClass("highlighted");
+	};
 
-	//-------------------menu animation-------------------
+	//-------------------menu interaction-------------------
  
  	$(".menu").find("li").mouseenter( function() {
  		$(this).addClass("highlight");
@@ -11,33 +17,31 @@ $(document).ready(function(){
  		$(this).removeClass("highlight");
 	});
 	
-	$(".menu").find("li").click(function(){
-		var id = $(this).attr("id");
-		$(this).addClass("highlight2");
-  		//alert(id);
-	});
-
-
 	//-------------------loading content-------------------
 	
 	$(".menu").find("#home").click( function() {
 		$('#content').load("home.html");
+		highlightSelected($(".menu").find("#home"));
 	});
 	
 	$(".menu").find("#photo").click( function() {
-		$('#content').load("photography.html");	
+		$('#content').load("photography.html");
+		highlightSelected($(".menu").find("#photo"));
 	});
 
 	$(".menu").find("#design").click( function() {
-		$('#content').load("design.html");	
+		$('#content').load("design.html");
+		highlightSelected($(".menu").find("#design"));	
 	});
 	
 	$(".menu").find("#prog").click( function() {
 		$('#content').load("prog.html");	
+		highlightSelected($(".menu").find("#prog"));
 	});
 	
 	$(".menu").find("#contact").click( function() {
 		$('#content').load("contact.html");	
+		highlightSelected($(".menu").find("#contact"));
 	});
 	
 	//----------------galleriffic gallery-------------------
