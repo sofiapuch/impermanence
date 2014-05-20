@@ -59,22 +59,19 @@ div.download {
 }
 div.caption-container {
 	position: absolute;
-	top: 450px;
-	right:37px;
-	width: 772px;
+	top: 75%;
+	width: 60%;
 	height: 60px;
+	margin-left:65px;
 	background-color:#F7F2F2;
 	opacity: 0.7;
 }
 span.image-caption {
 	display: block;
-	position: absolute;
-	width: 550px;
-	top: 0;
-	left: 141px;
+	text-align:center;
 }
 div.caption {
-	padding: 12px;
+	padding-top: 10px;
 }
 div.image-title {
 	font-weight: bold;
@@ -82,7 +79,7 @@ div.image-title {
 }
 div.image-desc {
 	line-height: 1.3em;
-	padding-top: 12px;
+	padding-top: 5px;
 }
 div.navigation {
 	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
