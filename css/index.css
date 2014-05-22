@@ -115,23 +115,23 @@ article{
 
 #info{
 	font-family: 'Calibri';
-	float: right;
-	padding: 30px 50px 60px;
-	position: relative;
-	width: 50%;
-	margin: 160px 160px auto auto;
+	float: left;
+	position: absolute;
+	width: 75%;
+	margin: 140px auto auto 30px;
 }
 
 #sd{
-	margin: 150px auto auto 80px;
+	margin: 0px 40px auto 80px;
 	float: left;
-	position: absolute;
+	position: relative;
 }
 
 #thumbs.navigation{
 	width: 30%;
 	float: left;
 	position: relative;
+	height:580px;
 	/*margin:auto 30px auto 30px;*/
 }
 

@@ -38,6 +38,7 @@ div.loader {
 	background-position: center;
 }
 div.slideshow {
+	height: 470px;
 
 }
 div.slideshow span.image-wrapper {
@@ -47,6 +48,8 @@ div.slideshow span.image-wrapper {
 div.slideshow a.advance-link {
 	display: block;
 	text-align: center;
+	height: 470px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 470px; /* This should be set to be at least the height of the largest image in the slideshow */
 }
 div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
 	text-decoration: none;

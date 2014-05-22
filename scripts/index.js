@@ -6,6 +6,8 @@ $(document).ready(function(){
     	history.pushState("", document.title, window.location.pathname+ window.location.search);
 	};
 	
+	highlightSelected($(".menu").find("#home"));
+	
 	//-------------------my functions-----------------------
 	
 	function highlightSelected(e) {
