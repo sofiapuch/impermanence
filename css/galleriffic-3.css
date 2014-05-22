@@ -3,16 +3,17 @@ div.content {
 	display: none;
 	float: right;
 	width: 70%; 
+	position:relative;
 }
 div.content a, div.navigation a {
 	text-decoration: none;
-	color: #777;
+	color: #5E5757;
 }
 div.content a:focus, div.content a:hover, div.content a:active {
 	text-decoration: underline;
 }
 div.controls {
-	margin:20px 40px auto auto;
+	margin:25px 40px auto auto;
 	padding-left:35px;
 }
 div.controls a {
@@ -59,19 +60,19 @@ div.download {
 }
 div.caption-container {
 	position: absolute;
-	top: 75%;
-	width: 60%;
+	top: 82%;
+	width: 86%;
 	height: 60px;
 	margin-left:65px;
 	background-color:#F7F2F2;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 span.image-caption {
 	display: block;
 	text-align:center;
 }
 div.caption {
-	padding-top: 10px;
+	padding-top: 8px;
 }
 div.image-title {
 	font-weight: bold;
