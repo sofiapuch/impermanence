@@ -5,8 +5,8 @@ body{
 }
 
 a{
-	color: #27D;
 	text-decoration: none;
+	color: #5E5757
 }
 a:focus, a:hover, a:active {
 	text-decoration: underline;
@@ -22,7 +22,7 @@ header{
 }
 
 h1{
-	font-family: 'inertia', 'Georgia';
+	font-family: 'inertia', 'Calibri';
 	display: inline;
 	text-shadow:4px 1px 2px #B1B1B1;
 	padding-top: 20px;
@@ -30,7 +30,7 @@ h1{
 
 h3{
 	color: #A3B7D8;
-	font-family: 'Georgia';
+	font-family: 'Calibri';
 	font-weight: bold;
 	margin-left: 8px;
 	display:inline;
@@ -38,7 +38,7 @@ h3{
 
 .menu{
 	background-color:#A3B7D8;
-	font-family: 'Georgia';
+	font-family: 'Calibri';
 	box-shadow: 0 5px 2px 0 #8A9ED6;
 	width: 100%;
 	height: 35px;
@@ -102,16 +102,30 @@ article{
 
 #about{
 	background-color: #FFFFFF;
-	font-family: 'Georgia';
+	font-family: 'Calibri';
 	opacity: 0.9;
 	z-index: 2;
 	position: absolute;
-	width: 200px;
-	height: 320px;
+	width: 20%;
 	float: right;
-	margin: 50px 80px 10px 50px;
+	margin: 75px 80px auto 50px;
 	padding: 30px 50px 60px 50px;
 	border: dotted 1px;
+}
+
+#info{
+	font-family: 'Calibri';
+	float: right;
+	padding: 30px 50px 60px;
+	position: relative;
+	width: 50%;
+	margin: 160px 160px auto auto;
+}
+
+#sd{
+	margin: 150px auto auto 80px;
+	float: left;
+	position: absolute;
 }
 
 #thumbs.navigation{
@@ -131,7 +145,7 @@ footer{
 }
 
 footer p{
-	font-family: 'Georgia';
+	font-family: 'Calibri';
 	text-align:center;	
 	padding-top: 10px;
 }
