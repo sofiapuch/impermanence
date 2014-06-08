@@ -1,75 +1,34 @@
 <!DOCTYPE html>
-<html>
 
 <head>
 	<title>Welcome to my portfolio</title>
 	<meta charset="UTF-8"/>
-	<!-- css -------->
-	<link rel="stylesheet" href="css/index.css"/>
-	<link rel="stylesheet" href="css/galleriffic-3.css" />
-	<!-- scripts-->
-	<script src="scripts/jquery-1.3.2.js"></script>
-	<script type="text/javascript" src="scripts/jquery.history.js"></script>
-	<script type="text/javascript" src="scripts/jquery.opacityrollover.js"></script>
-	<script type="text/javascript" src="scripts/jquery.galleriffic.js"></script>
-	<!-- We only want the thunbnails to display when javascript is disabled -->
-	<script type="text/javascript">
-		document.write('<style>.noscript { display: none; }</style>');
-	</script>
-	<!-- my scripts-->
+	
+	<link rel="stylesheet" href="css/impermanence.css">
 	<script src="scripts/index.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-43107439-1', 'impermanence.es');
-  ga('send', 'pageview');
-
-</script>
+	<script src="scripts/jquery-2.0.3.min.js"></script>
 </head>
 
 <body>
-	<header>
-		<h1>sophie puch</h1><h3>PORTFOLIO</h3>
-		<nav class="menu">
-			<ul>
-				<li id="home">Home</li>
-				<li id="photo">Photography</li>
-				<li id="design">Designs</li>
-				<!--<li id="prog">Programming</li>-->
-				<li id="contact">Contact</li>
-			</ul>
-		</nav>
-	</header>
 	
-	<article id="content">
+	<div id="content">
 		
-			<img id="background" src="images/background/background1.jpg" alt="tiergarten"/> 
-			<section id="about">
-				<p>Thank you for visiting the first version of my portfolio!</p>
-				<p>
-					I'm a student of <em>Multimedia Engineering</em> at La Salle Campus Barcelona.
-					<strong>"Impermanence"</strong> is the signature of a photographic project I started 
-					as a hobby a few years ago. Last summer I had the opportunity to show
-					some of the pictures at the festival <a href="http://www.summerdarkness.nl/festival/" target="_blank">
-					Summer Darkness</a> in Utrecht.
-				</p>
-				<p>Find me on:
-					<nav class="media">
-						<ul>
-							<li><a href="http://500px.com/impermanence" target="_blank"><img src="images/logos/500px.png" alt="link to 500px"/></a></li>
-							<li><a href="http://es.linkedin.com/pub/sofia-puch/50/4a8/296/" target="_blank"><img src="images/logos/LinkedIn.png" alt="link to linkedin"/></a></li>
-							<li><a href="https://twitter.com/SophiePuch" target="_blank"><img src="images/logos/twitter.png" alt="link to twitter"/></a></li>
-						</ul>
-					</nav>
-				</p>
-			</section>
-			
-	</article>
+		<section id="left">
+			<header id="name"></header>
+			<nav id="menu"></nav>
+			<footer id="copywright"></footer>
+		</section>
+		
+		<article id="principal">
+			<nav id="controls"></nav>
+			<figure id="actualImage">
+				<img id="image" />
+				<figcaption id="caption"></figcaption>
+			</figure>
+		</article>
+		
+		<footer id="pagination"></footer>
+		
+	</div>
 	
-	<footer><p>&copy; Sofia Puch 2014</p></footer>
 </body>
-
-</html>

@@ -1,154 +1,60 @@
 body{
-	background-color:#F6F4F0;
-	/*text-align: left;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+div#content{
 	
 }
 
-a{
-	text-decoration: none;
-	color: #5E5757
-}
-a:focus, a:hover, a:active {
-	text-decoration: underline;
-}
-
-@font-face{
-	font-family: 'inertia';
-	src:url(../fonts/Black_Heart_Inertia.ttf);
-}
-
-header{
-	margin-top:20px;
-}
-
-h1{
-	font-family: 'inertia', 'Calibri';
-	display: inline;
-	text-shadow:4px 1px 2px #B1B1B1;
-	padding-top: 20px;
-}
-
-h3{
-	color: #A3B7D8;
-	font-family: 'Calibri';
-	font-weight: bold;
-	margin-left: 8px;
-	display:inline;
-}
-
-.menu{
-	background-color:#A3B7D8;
-	font-family: 'Calibri';
-	box-shadow: 0 5px 2px 0 #8A9ED6;
-	width: 100%;
-	height: 35px;
-	margin: 10px auto 0 auto;
-	cursor:default;
-	/*border: 1px solid;*/
-}
-
-.highlight{
-	color: #F6F4F0;
-	text-shadow:4px 4px 2px #7791DA;
-}
-
-.highlighted{
-	color: #F6F4F0;
-	text-shadow:4px 4px 2px #7791DA;
-}
-
-#home{
-	margin-left: 75px;
-}
-
-.menu ul{
-	margin:0px;
-	padding-left:0px;
-	padding-top:10px;
-}
-
-.menu ul li{
-	list-style-type:none;
-	font-weight: bold;
-	display:inline;
-	margin: auto 25px auto 25px;
-}
-
-article{
-	background-color:#FFFFFF;
-	position:relative;
-	width:90%;
-	height:580px;
-	margin:30px auto 0px auto;
-	overflow:hidden;
-	box-shadow:5px 5px 10px 5px #B1B1B1;
-}
-
-#background{
-	z-index: 1;
-	position:absolute;
-}
-#galleryBackground{
-	position:absolute;
-	opacity:0.1;
-}
-
-.media ul li{
-	list-style-type:none;
-	display:inline;
-	float:right;
-	margin-left: 8px;
-}
-
-#about{
-	background-color: #FFFFFF;
-	font-family: 'Calibri';
-	opacity: 0.9;
-	z-index: 2;
-	position: absolute;
-	width: 20%;
-	float: right;
-	margin: 75px 80px auto 50px;
-	padding: 30px 50px 60px 50px;
-	border: dotted 1px;
-}
-
-#info{
-	font-family: 'Calibri';
-	float: left;
-	position: absolute;
-	width: 75%;
-	margin: 140px auto auto 30px;
-}
-
-#sd{
-	margin: 0px 40px auto 80px;
+section#left{
+	background-color: #7791DA;
 	float: left;
 	position: relative;
-}
-
-#thumbs.navigation{
 	width: 30%;
-	float: left;
-	position: relative;
-	height:580px;
-	/*margin:auto 30px auto 30px;*/
+	height: 100%;
 }
 
-footer{
-	background-color: #A3B7D8;
-	box-shadow: 0 5px 2px 0 #8A9ED6;
+header#name{
+	background-color: #5E5757;
+	position:relative;
 	width: 100%;
-	height: 35px;
-	margin: 30px auto 0px auto;
+	height: 30px;
+}
+
+nav#menu{
 	
 }
 
-footer p{
-	font-family: 'Calibri';
-	text-align:center;	
+footer#copywright{
+	background-color: #5E5757;
+	position:relative;
+	width: 100%;
+	height: 30px;
 	padding-top: 10px;
 }
 
+article#principal{
+	background-color: #CCCCCC;
+	position: relative;
+	float: left;
+	width:70%;
+	height: auto;
+}
 
+nav#controls{
+
+}
+
+figure#actualImage{
+	
+}
+
+figcaption#caption{
+	
+}
+
+footer#pagination{
+	
+}
 
