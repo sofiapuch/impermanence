@@ -5,51 +5,31 @@
 	<meta charset="UTF-8"/>
 	
 	<link rel="stylesheet" href="css/impermanence.css">
-	<script src="scripts/index.js"></script>
-	<script src="scripts/jquery-2.0.3.min.js"></script>
+	<!--script src="scripts/index.js"></script>
+	<script src="scripts/jquery-2.0.3.min.js"></script-->
 </head>
 
-<body>
+<body class="commonWidth">
+    
+    <header class="topMenu commonWidth menuHeight">
+        <div class="title">
+            <h1>Impermanence</h1>
+            <h2>Sophie Puch Photography</h2>
+        </div>
+        <nav class="options">
+            <ul>
+                <li id="photo" class="menuButton">PHOTOGRAPHY</li>
+                <li id="designs" class="menuButton">DESIGNS</li>
+                <li id="about" class="menuButton">ABOUT</li>
+            </ul>
+        </nav>
+        
+    </header>
 	
-	<div id="content">
-		
-		<section id="left">
-			<header id="name">
-                <h1>Impermanence</h1>
-                <h3>Sophie Puch Photography</h3>
-            </header>
-			<nav id="menu">
-                <h4>PHOTOGRAPHY ></h4>
-                <ul class="leftList" id="gallery">
-                    <li id="new">2014</li>
-                    <li id="old">passages</li>
-                </ul>
-                <ul class="leftList" id="info">
-                    <li id="about">about</li>
-                    <li id="contact">contact</li>
-                    <li id="linkedin">linkedin</li>
-                    <li id="contact">500px</li>
-                </ul>
-            </nav>
-			<footer id="copywright"><p>&copy; 2014 Sofia Puch</p></footer>
-		</section>
-		
-		<article id="principal">
-            <div class="controls">
-                <nav id="controls-left">
-                    <img src="images/controls/controls-left.png">
-                </nav>
-                <nav id="controls-right">
-                    <img src="images/controls/controls-right.png">
-                </nav>
-            </div>
-			<div id="actualImage">
-				<img id="image" />
-				<div id="caption"></div>
-			</div>
-            <footer id="pagination"></footer>
-		</article>
-		
-	</div>
+	<div class="content commonWidth"></div>
+    
+    <footer class="footer commonWidth menuHeight">
+        <p class="footerText">&copy; Sofia Puch 2014</p>
+    </footer>
 	
 </body>
